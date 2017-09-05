@@ -5,7 +5,7 @@ $API = new RouterosAPI();
 
 $API->debug = false;
 
-if ($API->connect('mikrotik_ip', 'usename', 'password')) {
+if ($API->connect('mikrotik_ip', 'username', 'password')) {
 
 $API->write('/ip/firewall/address-list/print', false);
 $API->write('?comment=autoblacklist', false);
