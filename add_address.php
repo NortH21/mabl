@@ -7,7 +7,7 @@ $API = new RouterosAPI();
 
 $API->debug = false;
 
-if ($API->connect('mikrotik_ip', 'usename', 'password')) {
+if ($API->connect('mikrotik_ip', 'username', 'password')) {
 
 foreach ($lines as $line_num => $line) {
 
