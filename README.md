@@ -2,6 +2,7 @@
 
 #mikrotikasteriskblacklist
 #mikrostikautoblacklist
+#frod #subnets #frod.subnets
 
 1) /etc/crontab
 <pre>
