@@ -1,5 +1,5 @@
 <?php
-require('./lib/routeros_api.class.php');
+require('/opt/mabl/lib/routeros_api.class.php');
 
 $API = new RouterosAPI();
 
