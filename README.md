@@ -4,8 +4,10 @@
 #mikrostikautoblacklist
 #frod #subnets #frod.subnets
 
-0) <pre> cd /opt/
-git clone https://github.com/NortH21/mabl.git
+0) 
+<pre>
+  cd /opt/
+  git clone https://github.com/NortH21/mabl.git
 </pre>
 1) /etc/crontab
 <pre>
