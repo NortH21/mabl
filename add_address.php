@@ -1,6 +1,6 @@
 <?php
 
-require('./lib/routeros_api.class.php');
+require('/opt/mabl/lib/routeros_api.class.php');
 $lines = file(dirname(__FILE__)."/addresses.txt");
 
 $API = new RouterosAPI();
