@@ -4,6 +4,10 @@
 #mikrostikautoblacklist
 #frod #subnets #frod.subnets
 
+0)
+cd /opt/
+git clone https://github.com/NortH21/mabl.git
+
 1) /etc/crontab
 <pre>
   10 1    * * *   root    php /opt/mabl/wget_address.php
