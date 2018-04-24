@@ -10,7 +10,7 @@
   git clone https://github.com/NortH21/mabl.git
 </pre>
 2) Edit /opt/mabl/address.php
-3) /etc/crontab
+3) Edit /etc/crontab
 <pre>
   10 1    * * *   root    php /opt/mabl/address.php
 </pre>
