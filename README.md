@@ -4,18 +4,17 @@
 #mikrostikautoblacklist
 #frod #subnets #frod.subnets
 
-0) 
+1) 
 <pre>
   cd /opt/
   git clone https://github.com/NortH21/mabl.git
 </pre>
-1) /etc/crontab
+2) Edit /opt/mabl/address.php
+3) /etc/crontab
 <pre>
-  10 1    * * *   root    php /opt/mabl/wget_address.php
-  15 1    * * *   root    php /opt/mabl/remove_address_list.php
-  17 1    * * *   root    php /opt/mabl/add_address.php
+  10 1    * * *   root    php /opt/mabl/address.php
 </pre>
-2) mikrotik
+4) mikrotik
 <pre>
 /ip service
 set api address=10.10.1.0/24
